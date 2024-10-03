@@ -1,0 +1,444 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#Nav{
+    display: flex;
+    justify-content: space-between;
+}
+.Nav-about{
+    position: relative;
+}
+.back-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    cursor: pointer;
+}
+.Logo{
+    height: 130px;
+    width: 120px;  
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Logo-img{
+    width: 100%;
+    height: 100%;
+}
+.Navbars{
+    
+    width: 60%;
+    text-align: center;   
+}
+.Bars{
+    margin-top: 5%;
+    margin-left: 60px;  
+    text-decoration: none;
+    color: black;
+}
+.Bars:hover{
+    color: brown;
+}
+#Destination{
+    display: flex;
+    justify-content: space-between;
+}
+.Contents{
+    padding: 100px;
+}
+.First-head{
+    margin-bottom: 20px;
+    color: rgb(190, 27, 27);
+    font-family: "Roboto Condensed", sans-serif;
+}
+#enjoy{
+    text-decoration: underline color(rec2020 red green blue);
+}
+.second-head{
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 20px;
+    color: rgb(189, 128, 189);
+}
+.about{
+    line-height: 1.5;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.Play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-box{
+    margin-left: 10%;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(189, 189, 41);
+    text-align: center;
+}
+.playdemo{
+    width: 40%;
+}
+.play{
+    padding: 5%;
+    border-radius: 50%;
+    background-color: brown;
+    margin-right: 10%;
+}
+.demo{
+    text-decoration: none;
+    color: rgb(23, 19, 19);
+}
+.Cat{
+    position: relative;
+}
+.Curved{
+    position: absolute;
+    bottom: 5px;
+    z-index: -1;
+    width: 150px;
+    left: 0;
+    display: none;
+}
+.sub-Contents:hover~.Curved{
+   display: block;
+}
+.Category-head{
+    text-align: center;
+    line-height: 1.5;
+}
+.Category-first{
+    color: blueviolet;
+    font-weight: normal;
+}
+.category-contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    z-index: 1;
+}
+.sub-Contents{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 100px;
+    padding: 15px;
+    
+}
+.hover-img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+
+}
+.sub-Contents:hover{
+    background-image: url(./Images/bbbcck.jpg);
+    border-radius: 10px;
+}
+.category-img{
+    width: 100%;
+    height: 70%;
+}
+.sub-heading{
+    text-align: center;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.Selling{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.selling-img{
+    width: 350px;
+    height: 300px;
+    
+}
+.main-images{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.Easy-and-fast{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px 50px 50px;
+}
+.easy-img{
+    width: 50px;
+    height: 50px;
+}
+.fast-img{
+    width: 100%;
+    height: 100%;
+}
+.fasy-head{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.fast-text{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.easy-head{
+    margin-left: 30px;
+    color: deeppink;
+    margin-top: 30px;
+}
+.easy-subhead{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.easy-image{
+    margin-right: 100px;
+
+}
+.Testimonials{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 30px 50px 50px;
+}
+.test-img{
+    width: 100%;
+}
+.side-head{
+    padding: 2%;
+}
+.first-Testimonials{
+    color: rgb(83, 48, 48);
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+.second-Testimonials{
+    font-size: 50px;
+    margin-right: 150px;
+    color: black;
+}
+.right-head{
+    padding: 5%;
+    background-color: white;
+    border-radius: 15px;
+    background-image: url(./Images/white.webp);
+    line-height: 27px;
+    height: 250px;
+    position: relative;
+}
+.fourth-Testimonials{
+    line-height: 15px;
+    margin-top: 15px;
+}
+.img-Testimonials{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Image-contents{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.Subscribe{
+    text-align: center;
+    margin: 100px 50px 50px 100px;
+    background-image: url(./Images/background.avif);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-color: black;
+    border-radius: 10px;
+    height: 300px;
+
+}
+.Subscribe-content{
+    margin: 10px 500px 10px 500px;
+    height: 100px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.sub-email{
+    /* background-image: url(./Images/white.webp); */
+    background-color: white;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+.Subscribe-option{
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    margin-top: 25%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Input-type{
+    width: 80%;
+    border: none;
+    height: 100%;
+    right: 0;
+    outline: none;
+}
+.em{
+    display: flex;
+}
+.SUb{
+    display: inline-block;
+}
+.lock{
+    float: left;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+#Footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px 10px 50px;
+
+}
+.footer-link{
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+}
+.footer-head{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.footer-link:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.footer-Logo{
+    width: 100px;
+    height: 100px;
+}
+.footer-first{
+    font-size: 20px;
+}
+.Footer-first-head{
+    width: 300px;
+}
+.Facebook{
+    margin: 10px 20px 10px 30px;
+    background-image: linear-gradient( to right, yellow,red);
+    border-radius: 10px;
+    padding: 2%;
+}
+.brand:hover .Facebook{
+    animation: rotate 5s;
+}
+.foot-last{
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.Foot-imag{
+    width: 250px;
+    height: 150px;
+}
+.IMG-FOOT{
+    width: 100%;
+    height: 100%;
+}
+.Foot-gplay{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.plays{
+    display: flex;
+    background-color: rgb(127, 61, 61);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.text-style{
+    font-size: 8px;
+    color: white;
+    margin-left: 5px;
+}
+.apan{
+    font-size: 6px;
+}
+.foot-last{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+
+@media(max-width:760px){
+    #Destination{
+        display: block;
+    }
+    .destination-image{
+        width: 500px;;
+    }
+    .category-contents{
+        display: block;
+    }
+    .Selling{
+        display: block;
+    }
+    .Easy-and-fast{
+        display: block;
+    }
+    .Testimonials{
+        display: block;
+    }
+    .Subscribe{
+        width: 400px;
+        padding: 5%;
+    }
+    #Footer{
+        display: block;
+    }
+    .footer-head{
+        margin-top: 30px;
+    }
+    .Subscribe-content{
+        font-size: 20px;
+        padding: 10px;
+        width: 200px;
+        margin-left: 30%;
+    }
+    .Bars{
+        display: block;
+    }
+    .Image-contents{
+        display: block;
+    }
+    .selling-img{
+        padding: 20%;
+    }
+    .img-Testimonials{
+        width: 25px;
+    }
+    .Subscribe-option{
+        font-size: 10px;
+        margin-top: 50px;
+    }
+    .Input-type{
+        width: 20px;
+    }
+}
